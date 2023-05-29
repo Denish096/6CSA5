@@ -12,5 +12,4 @@ public class Quit4 {
 		Thread.sleep(3000);
 		driver.quit();
 	}
-
 }
