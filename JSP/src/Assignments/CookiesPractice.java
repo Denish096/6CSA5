@@ -16,7 +16,7 @@ public class CookiesPractice {
 		for (Cookie cookie : allCookies) {
 			System.out.println(cookie.getName());
 		}
-		Cookie cook = new Cookie("cooky", "burger");
+		Cookie cook = new Cookie("cooky", "fb");
 		driver.manage().addCookie(cook);
 		System.out.println(driver.manage().getCookieNamed("_js_datr"));
 		System.out.println(cook.getName());

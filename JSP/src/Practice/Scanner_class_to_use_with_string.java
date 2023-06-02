@@ -10,8 +10,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
-
-
 public class Scanner_class_to_use_with_string {
 	public static void main(String[] args) {
 
@@ -46,7 +44,7 @@ public class Scanner_class_to_use_with_string {
 		driver.manage().window().setSize(d );	
 		Point p = new Point(700, 0);
 		driver.manage().window().setPosition(p );
-//		driver.manage().window().minimize();
+		//		driver.manage().window().minimize();
 		driver.get(url);
 		if(e.equalsIgnoreCase("chrome")) {
 			System.out.println("Chrome is opening..");
@@ -56,10 +54,8 @@ public class Scanner_class_to_use_with_string {
 			driver1 =new EdgeDriver();}
 		else 
 			return;
-		
 		Dimension g = new Dimension(800, 800);
 		driver1.manage().window().setSize(g );
 		driver1.get(url2);
-		
 	}
 }
