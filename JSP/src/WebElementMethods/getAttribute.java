@@ -13,7 +13,7 @@ public class getAttribute {
 		Thread.sleep(4000);
 		WebElement username = driver.findElement(By.name("username"));
 		username.sendKeys("1234");
-		System.out.println(username.getAttribute("value"));
+		System.out.println(username.getAttribute(null)));
 		driver.close();
 	}
 

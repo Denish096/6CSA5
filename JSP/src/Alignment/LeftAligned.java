@@ -20,7 +20,7 @@ public class LeftAligned {
 			System.out.println("elements are not left aligned");
 		System.out.println(emailX);
 		System.out.println(passX);
-		driver.close();
+//		driver.close();
 	}
 
 }
